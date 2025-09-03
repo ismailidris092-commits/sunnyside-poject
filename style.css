@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 800px;
+  height: 120vh;
 }
 
 .nav-bar {
@@ -19,10 +19,8 @@ body {
   justify-content: space-between;
 }
 
-.sunnyside {
+#meet-logo {
   margin-top: 25px;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 .nav-list {
@@ -54,7 +52,7 @@ body {
 
 #icon-arrow {
   text-align: center;
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 /* main-section */
@@ -64,7 +62,8 @@ body {
 }
 
 #image-transform img {
-  height: 562.5px;
+  height: 100%;
+  width: 100%;
 }
 
 .tansform-brand {
@@ -96,7 +95,8 @@ body {
 }
 
 #image-stand-out img {
-  height: 562.5px;
+  height: 100%;
+  width: 100%;
 }
 
 .stand-out {
