@@ -44,10 +44,10 @@ body {
 .creatives-heading {
   font-family: "fraunces", serif;
   text-align: center;
-  font-size: 48px;
+  font-size: 50px;
   color: aliceblue;
   margin-top: 100px;
-  transform: scalex(1);
+  letter-spacing: 10px;
 }
 
 #icon-arrow {
