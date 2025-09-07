@@ -595,7 +595,7 @@ footer {
   }
 
   #image-transform img {
-    height: 100%;
+    height: 45vh;
     width: 100%;
   }
 
@@ -613,9 +613,9 @@ footer {
   }
 
   .tansform-brand-text {
-    font-size: 14px;
+    font-size: 15px;
     color: rgb(119, 108, 108);
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .transform-brand-learn-more {
@@ -627,7 +627,7 @@ footer {
   /* Stand out section */
 
   #image-stand-out img {
-    height: 100%;
+    height: 45vh;
     width: 100%;
   }
 
@@ -640,7 +640,7 @@ footer {
   }
 
   .stand-out-text-heading {
-    font-size: 23px;
+    font-size: 25px;
     font-family: "fraunces", serif;
   }
 
@@ -648,7 +648,7 @@ footer {
     font-weight: bold;
     font-size: 15px;
     color: rgb(119, 108, 108);
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .stand-out-text-learn-more {
@@ -658,7 +658,7 @@ footer {
 
   .image-gaphic-design-backgrround {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     background-image: url(images/image-graphic-design.jpg);
     background-size: cover;
     background-position: center;
@@ -683,7 +683,7 @@ footer {
 
   .image-photography-background {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     background-image: url(images/image-photography.jpg);
     background-size: cover;
     background-position: center;
@@ -762,7 +762,7 @@ footer {
 
   /* Gallery section */
   #image-gallery img {
-    height: 25vh;
+    height: 45vh;
     width: 100%;
   }
 
