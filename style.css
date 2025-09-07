@@ -361,7 +361,7 @@ footer {
   }
 
   #sunnyside-logo img {
-    width: 130px;
+    width: 170px;
   }
 
   .creatives-heading {
@@ -573,7 +573,7 @@ footer {
 
   .nav-list a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: aliceblue;
   }
 
@@ -583,14 +583,14 @@ footer {
 
   .nav-list button {
     font-weight: bold;
-    padding: 18px;
+    padding: 20px;
     border: none;
     border-radius: 25px;
     background-color: white;
   }
 
   #sunnyside-logo img {
-    width: 200px;
+    width: 250px;
     padding: 10px;
   }
 
