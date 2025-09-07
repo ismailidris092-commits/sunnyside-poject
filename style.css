@@ -604,7 +604,7 @@ footer {
     padding: 0 20px;
     align-content: center;
     text-align: justify;
-    font-weight: bold;
+    font-weight: 700px;
   }
 
   .transform-brand-heading {
@@ -619,7 +619,7 @@ footer {
   }
 
   .transform-brand-learn-more {
-    font-weight: bold;
+    font-weight: 700px;
     font-family: "fraunces", serif;
     font-size: 14px;
   }
@@ -645,7 +645,7 @@ footer {
   }
 
   .stand-out-text {
-    font-weight: bold;
+    font-weight: 700px;
     font-size: 15px;
     color: rgb(119, 108, 108);
     margin-bottom: 30px;
@@ -653,18 +653,18 @@ footer {
 
   .stand-out-text-learn-more {
     font-family: "fraunces", serif;
-    font-weight: bold;
+    font-weight: 700px;
     font-size: 14px;
   }
 
   .image-gaphic-design-backgrround {
     width: 100%;
-    height: 40vh;
+    height: 100%;
     background-image: url(images/image-graphic-design.jpg);
     background-size: cover;
     background-position: center;
     align-content: end;
-    font-weight: bold;
+    font-weight: 700px;
     text-align: center;
     color: rgb(61, 58, 58);
   }
@@ -672,8 +672,8 @@ footer {
   .graphic-design-heading {
     font-family: "fraunces", serif;
     margin-bottom: 15px;
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 700px;
   }
 
   .graphic-design-text {
@@ -684,11 +684,11 @@ footer {
 
   .image-photography-background {
     width: 100%;
-    height: 40vh;
+    height: 100%;
     background-image: url(images/image-photography.jpg);
     background-size: cover;
     background-position: center;
-    font-weight: bold;
+    font-weight: 700px;
     text-align: center;
     align-content: end;
     color: rgb(61, 58, 58);
@@ -697,13 +697,13 @@ footer {
   .photography-heading {
     font-family: "fraunces", serif;
     margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 700px;
   }
 
   .photography-text {
     font-size: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 0 10px;
   }
 
@@ -763,8 +763,9 @@ footer {
 
   /* Gallery section */
   #image-gallery img {
-    height: 45vh;
+    height: 100%;
     width: 100%;
+    object-fit: contain;
   }
 
   /* footer section */
