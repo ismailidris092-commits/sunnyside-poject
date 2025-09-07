@@ -594,21 +594,21 @@ footer {
     margin-top: 45px;
   }
 
+  /* transfom brand section */
   #image-transform img {
-    height: 45vh;
+    height: 40vh;
     width: 100%;
   }
 
-  /* transfom brand section */
   .tansform-brand {
-    padding: 0 10px;
+    padding: 0 20px;
     align-content: center;
     text-align: justify;
     font-weight: bold;
   }
 
   .transform-brand-heading {
-    font-size: 25px;
+    font-size: 20px;
     font-family: "fraunces", serif;
   }
 
@@ -627,20 +627,20 @@ footer {
   /* Stand out section */
 
   #image-stand-out img {
-    height: 45vh;
+    height: 40vh;
     width: 100%;
   }
 
   .stand-out {
-    padding: 0 10px;
+    padding: 0 20px;
     text-align: justify;
     align-content: center;
-    font-weight: bolder;
+    font-weight: bold;
     color: black;
   }
 
   .stand-out-text-heading {
-    font-size: 25px;
+    font-size: 20px;
     font-family: "fraunces", serif;
   }
 
@@ -658,7 +658,7 @@ footer {
 
   .image-gaphic-design-backgrround {
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     background-image: url(images/image-graphic-design.jpg);
     background-size: cover;
     background-position: center;
@@ -670,7 +670,7 @@ footer {
 
   .graphic-design-heading {
     font-family: "fraunces", serif;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: bolder;
   }
@@ -683,7 +683,7 @@ footer {
 
   .image-photography-background {
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     background-image: url(images/image-photography.jpg);
     background-size: cover;
     background-position: center;
@@ -695,7 +695,7 @@ footer {
 
   .photography-heading {
     font-family: "fraunces", serif;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: bolder;
   }
