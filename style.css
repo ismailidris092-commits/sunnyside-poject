@@ -596,7 +596,7 @@ footer {
 
   /* transfom brand section */
   #image-transform img {
-    height: 40vh;
+    height: 100%;
     width: 100%;
   }
 
@@ -608,7 +608,7 @@ footer {
   }
 
   .transform-brand-heading {
-    font-size: 20px;
+    font-size: 25px;
     font-family: "fraunces", serif;
   }
 
@@ -621,18 +621,18 @@ footer {
   .transform-brand-learn-more {
     font-weight: bold;
     font-family: "fraunces", serif;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   /* Stand out section */
 
   #image-stand-out img {
-    height: 40vh;
+    height: 100%;
     width: 100%;
   }
 
   .stand-out {
-    padding: 0 20px;
+    padding: 0 10px;
     text-align: justify;
     align-content: center;
     font-weight: bold;
@@ -640,7 +640,7 @@ footer {
   }
 
   .stand-out-text-heading {
-    font-size: 20px;
+    font-size: 25px;
     font-family: "fraunces", serif;
   }
 
@@ -654,6 +654,7 @@ footer {
   .stand-out-text-learn-more {
     font-family: "fraunces", serif;
     font-weight: bold;
+    font-size: 14px;
   }
 
   .image-gaphic-design-backgrround {
@@ -670,7 +671,7 @@ footer {
 
   .graphic-design-heading {
     font-family: "fraunces", serif;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 20px;
     font-weight: bolder;
   }
