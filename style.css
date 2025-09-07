@@ -52,7 +52,7 @@ body {
   font-size: 50px;
   color: aliceblue;
   margin-top: 50px;
-  /* letter-spacing: 10px; */
+  letter-spacing: 10px;
 }
 
 #icon-arrow {
@@ -191,7 +191,7 @@ body {
   font-family: "fraunces", serif;
   text-align: center;
   font-weight: bold;
-  margin-top: 120px;
+  margin-top: 100px;
   font-size: 20px;
   color: #a7abaeff;
   letter-spacing: 6px;
@@ -215,13 +215,13 @@ body {
 }
 
 .emily-testimonials {
-  font-size: 18px;
+  font-size: 16px;
   margin: 70px 0;
 }
 
 .emily {
   font-family: "fraunces", serif;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
 }
 
@@ -237,13 +237,13 @@ body {
 }
 
 .thomas-testimonials {
-  font-size: 18px;
+  font-size: 16px;
   margin: 70px 0;
 }
 
 .thomas {
   font-family: "fraunces", serif;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
 }
 
@@ -259,13 +259,13 @@ body {
 }
 
 .jennie-testimonials {
-  font-size: 18px;
+  font-size: 16px;
   margin: 70px 0;
 }
 
 .jennie {
   font-family: "fraunces", serif;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
 }
 
@@ -274,7 +274,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   object-fit: cover;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 #image-gallery img {
@@ -339,7 +339,7 @@ footer {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 85vh;
+    height: 72vh;
   }
 
   .nav-bar {
@@ -361,21 +361,22 @@ footer {
   }
 
   #sunnyside-logo img {
-    width: 100px;
+    width: 130px;
   }
 
   .creatives-heading {
     font-family: "fraunces", serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
     color: aliceblue;
-    margin-top: 70px;
-    letter-spacing: 4px;
+    margin-top: 10px;
+    letter-spacing: 8px;
+    transform: scale(0.6);
   }
 
   #icon-arrow {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 0px;
   }
 
   .display-grid-transform-brand {
@@ -400,6 +401,7 @@ footer {
     font-size: 16px;
     color: rgb(119, 108, 108);
     margin-bottom: 50px;
+    padding: 0 70px;
   }
 
   .display-grid-stand-out-text {
@@ -424,6 +426,7 @@ footer {
     font-size: 16px;
     color: rgb(119, 108, 108);
     margin-bottom: 50px;
+    padding: 0 70px;
   }
 
   .displaygrid-graphics-photography-background {
@@ -440,7 +443,7 @@ footer {
   .graphic-design-text {
     font-size: 16px;
     margin-bottom: 60px;
-    padding: 0 30px;
+    padding: 0 70px;
   }
 
   .photography-heading {
@@ -453,7 +456,7 @@ footer {
   .photography-text {
     font-size: 16px;
     margin-bottom: 60px;
-    padding: 0 30px;
+    padding: 0 70px;
   }
   /* .client-testimonials-section */
   .display-flex-one {
@@ -512,18 +515,34 @@ footer {
   }
 
   #image-gallery img {
-    height: 20vh;
+    height: 30vh;
     width: 100%;
   }
 
+  /* Footer section */
   .footer-heading {
     font-family: "fraunces", serif;
     text-align: center;
     font-weight: bolder;
-    margin-top: 0;
-    padding-top: 60px;
+    margin-top: 0 0;
+    padding-top: 30px;
     font-size: 25px;
     color: #428a79;
+  }
+
+  .footer-list {
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16x;
+    margin-bottom: 10px;
+    color: #428a79;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
   }
 }
 
@@ -534,38 +553,241 @@ footer {
     padding: 0;
     font-family: "barlow", serif;
   }
-}
-/* Navigation */
-.image-header-background {
-  background-image: url(images/image-header.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 85vh;
-}
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  padding: 40px 20px;
-  color: white;
-  font-family: "fraunces", serif;
-}
+  /* Navigation */
+  .image-header-background {
+    background-image: url(images/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 88vh;
+  }
 
-#sunnyside-logo img {
-  width: 120px;
-  padding-top: 10px;
-}
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    color: white;
+    font-family: "fraunces", serif;
+  }
 
-.nav-list-spacing {
-  margin-right: 10px;
-}
+  #sunnyside-logo img {
+    width: 150px;
+    padding-top: 10px;
+  }
 
-.creatives-heading {
-  font-family: "fraunces", serif;
-  text-align: center;
-  font-size: 30px;
-  color: aliceblue;
-  margin-top: 70px;
-  letter-spacing: 4px;
+  .nav-list-spacing {
+    margin-right: 10px;
+  }
+
+  .creatives-heading {
+    font-family: "fraunces", serif;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 40px;
+    letter-spacing: 4px;
+  }
+
+  #icon-arrow {
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  #image-transform img {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* transfom brand section */
+  .tansform-brand {
+    padding: 0 20px;
+    align-content: center;
+    text-align: justify;
+    font-weight: bold;
+  }
+
+  .transform-brand-heading {
+    font-size: 25px;
+    font-family: "fraunces", serif;
+  }
+
+  .tansform-brand-text {
+    font-size: 14px;
+    color: rgb(119, 108, 108);
+    margin-bottom: 15px;
+  }
+
+  .transform-brand-learn-more {
+    font-weight: bold;
+    font-family: "fraunces", serif;
+  }
+
+  /* Stand out section */
+
+  #image-stand-out img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .stand-out {
+    padding: 0 20px;
+    text-align: justify;
+    align-content: center;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .stand-out-text-heading {
+    font-size: 23px;
+    font-family: "fraunces", serif;
+  }
+
+  .stand-out-text {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(119, 108, 108);
+    margin-bottom: 15px;
+  }
+
+  .stand-out-text-learn-more {
+    font-family: "fraunces", serif;
+    font-weight: bold;
+  }
+
+  .image-gaphic-design-backgrround {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    align-content: end;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(61, 58, 58);
+  }
+
+  .graphic-design-heading {
+    font-family: "fraunces", serif;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .graphic-design-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  .image-photography-background {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    text-align: center;
+    align-content: end;
+    color: rgb(61, 58, 58);
+  }
+
+  .photography-heading {
+    font-family: "fraunces", serif;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .photography-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 0 30px;
+  }
+
+  .emily-client-testimonials {
+    font-weight: bold;
+    width: 33.3%;
+    color: #a7abaeff;
+    padding: 0 10px;
+  }
+
+  .emily-testimonials {
+    font-size: 15px;
+    margin: 60px 0;
+  }
+
+  .emily {
+    font-family: "fraunces", serif;
+    font-size: 15px;
+    color: black;
+  }
+
+  .thomas-client-testimonials {
+    font-weight: bold;
+    width: 33.3%;
+    color: #a7abaeff;
+    padding: 0 10px;
+  }
+
+  .thomas-testimonials {
+    font-size: 15px;
+    margin: 60px 0;
+  }
+
+  .thomas {
+    font-family: "fraunces", serif;
+    font-size: 15px;
+    color: black;
+  }
+
+  .jennie-client-testimonials {
+    font-weight: bold;
+    width: 33.3%;
+    color: #a7abaeff;
+    padding: 0 10px;
+  }
+
+  .jennie-testimonials {
+    font-size: 15px;
+    margin: 70px 0;
+  }
+
+  .jennie {
+    font-family: "fraunces", serif;
+    font-size: 15px;
+    color: black;
+  }
+
+  /* Gallery section */
+  #image-gallery img {
+    height: 25vh;
+    width: 100%;
+  }
+
+  /* footer section */
+  .footer-heading {
+    font-family: "fraunces", serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0 0;
+    padding-top: 30px;
+    font-size: 25px;
+    color: #428a79;
+  }
+
+  .footer-list {
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16x;
+    margin-bottom: 10px;
+    color: #428a79;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
 }
