@@ -339,7 +339,7 @@ footer {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 72vh;
+    height: 80vh;
   }
 
   .nav-bar {
@@ -386,7 +386,7 @@ footer {
 
   /* transfom brand section */
   .tansform-brand {
-    padding: 40px 50px;
+    padding: 20px 0px;
     align-content: center;
     text-align: center;
     font-weight: 700px;
@@ -401,7 +401,7 @@ footer {
     font-size: 16px;
     color: rgb(119, 108, 108);
     margin-bottom: 50px;
-    padding: 0 70px;
+    padding: 0 20px;
   }
 
   .display-grid-stand-out-text {
@@ -409,7 +409,7 @@ footer {
   }
 
   .stand-out {
-    padding: 40px 30px;
+    padding: 20px 0px;
     text-align: center;
     align-content: center;
     font-weight: 700px;
@@ -417,7 +417,7 @@ footer {
   }
 
   .stand-out-text-heading {
-    font-size: 25px;
+    font-size: 30px;
     font-family: "fraunces", serif;
   }
 
@@ -426,7 +426,7 @@ footer {
     font-size: 16px;
     color: rgb(119, 108, 108);
     margin-bottom: 50px;
-    padding: 0 70px;
+    padding: 0 20px;
   }
 
   .displaygrid-graphics-photography-background {
@@ -443,7 +443,7 @@ footer {
   .graphic-design-text {
     font-size: 16px;
     margin-bottom: 60px;
-    padding: 0 70px;
+    padding: 0 20px;
   }
 
   .photography-heading {
@@ -456,7 +456,7 @@ footer {
   .photography-text {
     font-size: 16px;
     margin-bottom: 60px;
-    padding: 0 70px;
+    padding: 0 20px;
   }
   /* .client-testimonials-section */
   .display-flex-one {
@@ -560,7 +560,7 @@ footer {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 88vh;
+    height: 85vh;
   }
 
   .nav-bar {
@@ -572,7 +572,7 @@ footer {
   }
 
   #sunnyside-logo img {
-    width: 150px;
+    width: 170px;
     padding-top: 10px;
   }
 
@@ -601,7 +601,7 @@ footer {
 
   /* transfom brand section */
   .tansform-brand {
-    padding: 0 20px;
+    padding: 0 10px;
     align-content: center;
     text-align: justify;
     font-weight: bold;
@@ -621,6 +621,7 @@ footer {
   .transform-brand-learn-more {
     font-weight: bold;
     font-family: "fraunces", serif;
+    font-size: 15px;
   }
 
   /* Stand out section */
@@ -631,7 +632,7 @@ footer {
   }
 
   .stand-out {
-    padding: 0 20px;
+    padding: 0 10px;
     text-align: justify;
     align-content: center;
     font-weight: bolder;
@@ -657,7 +658,7 @@ footer {
 
   .image-gaphic-design-backgrround {
     width: 100%;
-    height: 300px;
+    height: 50vh;
     background-image: url(images/image-graphic-design.jpg);
     background-size: cover;
     background-position: center;
@@ -677,12 +678,12 @@ footer {
   .graphic-design-text {
     font-size: 15px;
     margin-bottom: 20px;
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .image-photography-background {
     width: 100%;
-    height: 300px;
+    height: 50vh;
     background-image: url(images/image-photography.jpg);
     background-size: cover;
     background-position: center;
@@ -701,8 +702,8 @@ footer {
 
   .photography-text {
     font-size: 15px;
-    margin-bottom: 20px;
-    padding: 0 30px;
+    margin-bottom: 30px;
+    padding: 0 10px;
   }
 
   .emily-client-testimonials {
@@ -771,7 +772,7 @@ footer {
     text-align: center;
     font-weight: bolder;
     margin-top: 0 0;
-    padding-top: 30px;
+    padding-top: 4cap;
     font-size: 25px;
     color: #428a79;
   }
@@ -781,13 +782,13 @@ footer {
     font-weight: bold;
     text-align: center;
     font-size: 16x;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #428a79;
   }
 
   .icons {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 40px 0;
   }
 }
