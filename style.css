@@ -88,6 +88,7 @@ body {
   font-size: 17px;
   color: rgb(119, 108, 108);
   margin-bottom: 50px;
+  font-weight: 100px;
 }
 
 .transform-brand-learn-more {
@@ -110,7 +111,7 @@ body {
   padding: 0 120px;
   text-align: justify;
   align-content: center;
-  font-weight: bolder;
+  font-weight: bold;
   color: black;
 }
 
@@ -120,7 +121,7 @@ body {
 }
 
 .stand-out-text {
-  font-weight: bold;
+  font-weight: 100px;
   font-size: 17px;
   color: rgb(119, 108, 108);
   margin-bottom: 50px;
@@ -167,7 +168,7 @@ body {
   background-image: url(images/image-photography.jpg);
   background-size: cover;
   background-position: center;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
   align-content: end;
   color: rgb(61, 58, 58);
@@ -187,26 +188,25 @@ body {
 }
 
 /* .client-testimonials-section */
-.client-testimonials-heading {
-  font-family: "fraunces", serif;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 100px;
-  font-size: 20px;
-  color: #a7abaeff;
-  letter-spacing: 6px;
-}
-
 .display-flex-one {
   display: flex;
   text-align: center;
   margin-top: 80px;
+  font-weight: bold;
 }
 
 .emily-client-testimonials {
-  font-weight: bold;
   width: 33.3%;
-  color: #a7abaeff;
+  color: rgb(64, 65, 66);
+}
+
+.client-testimonials-heading {
+  font-family: "fraunces", serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+  color: rgb(64, 65, 66);
+  letter-spacing: 6px;
 }
 
 #emily-image img {
@@ -223,12 +223,12 @@ body {
   font-family: "fraunces", serif;
   font-size: 16px;
   color: black;
+  font-weight: bolder;
 }
 
 .thomas-client-testimonials {
-  font-weight: bold;
   width: 33.3%;
-  color: #a7abaeff;
+  color: rgb(64, 65, 66);
 }
 
 #thomas-image img {
@@ -245,12 +245,12 @@ body {
   font-family: "fraunces", serif;
   font-size: 16px;
   color: black;
+  font-weight: bolder;
 }
 
 .jennie-client-testimonials {
-  font-weight: bold;
   width: 33.3%;
-  color: #a7abaeff;
+  color: rgb(64, 65, 66);
 }
 
 #jennie-image img {
@@ -267,6 +267,7 @@ body {
   font-family: "fraunces", serif;
   font-size: 16px;
   color: black;
+  font-weight: bolder;
 }
 
 /* image-gallery-section */
@@ -369,14 +370,14 @@ footer {
     text-align: center;
     font-size: 50px;
     color: aliceblue;
-    margin-top: 30px;
+    margin-top: 20px;
     letter-spacing: 8px;
     transform: scale(0.6);
   }
 
   #icon-arrow {
     text-align: center;
-    margin-top: 0px;
+    margin-top: -40px;
   }
 
   .display-grid-transform-brand {
@@ -467,17 +468,15 @@ footer {
   .client-testimonials-heading {
     font-family: "fraunces", serif;
     text-align: center;
-    font-weight: 700px;
+    font-weight: bold;
     margin-top: 60px;
     font-size: 18px;
-    color: #a7abaeff;
     letter-spacing: 2px;
   }
 
   .emily-client-testimonials {
-    font-weight: 100px;
+    font-weight: 500px;
     width: 100%;
-    color: #a7abaeff;
   }
 
   .emily-testimonials {
@@ -485,9 +484,8 @@ footer {
     margin: 30px 0;
   }
   .thomas-client-testimonials {
-    font-weight: 100px;
+    font-weight: 500px;
     width: 100%;
-    color: #a7abaeff;
     margin: 60px 0;
   }
 
@@ -497,9 +495,8 @@ footer {
   }
 
   .jennie-client-testimonials {
-    font-weight: 100px;
+    font-weight: 500px;
     width: 100%;
-    color: #a7abaeff;
   }
 
   .jennie-testimonials {
@@ -729,7 +726,6 @@ footer {
   .emily-client-testimonials {
     font-weight: bold;
     width: 33.3%;
-    color: #a7abaeff;
     padding: 0 10px;
   }
 
@@ -742,12 +738,13 @@ footer {
     font-family: "fraunces", serif;
     font-size: 15px;
     color: black;
+    margin-top: 80px;
   }
 
   .thomas-client-testimonials {
     font-weight: bold;
     width: 33.3%;
-    color: #a7abaeff;
+
     padding: 0 10px;
   }
 
@@ -765,7 +762,6 @@ footer {
   .jennie-client-testimonials {
     font-weight: bold;
     width: 33.3%;
-    color: #a7abaeff;
     padding: 0 10px;
   }
 
