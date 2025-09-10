@@ -359,10 +359,11 @@ footer {
     display: block;
     background-color: transparent;
     border: none;
+    width: 50px;
   }
 
   #sunnyside-logo img {
-    width: 150px;
+    width: 120px;
   }
 
   .creatives-heading {
