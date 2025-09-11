@@ -51,7 +51,7 @@ body {
   text-align: center;
   font-size: 50px;
   color: aliceblue;
-  margin-top: 50px;
+  margin-top: 140px;
   letter-spacing: 10px;
 }
 
@@ -151,15 +151,15 @@ body {
 
 .graphic-design-heading {
   font-family: "fraunces", serif;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-size: 30px;
   font-weight: bolder;
 }
 
 .graphic-design-text {
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: 60px;
-  padding: 0 140px;
+  padding: 0 100px;
 }
 
 .image-photography-background {
@@ -176,15 +176,15 @@ body {
 
 .photography-heading {
   font-family: "fraunces", serif;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-size: 30px;
   font-weight: bolder;
 }
 
 .photography-text {
-  font-size: 17px;
-  margin-bottom: 60px;
-  padding: 0 140px;
+  font-size: 16px;
+  margin-bottom: 70px;
+  padding: 0 100px;
 }
 
 /* .client-testimonials-section */
@@ -204,19 +204,19 @@ body {
   font-family: "fraunces", serif;
   text-align: center;
   margin-top: 100px;
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(64, 65, 66);
   letter-spacing: 6px;
 }
 
 #emily-image img {
-  width: 60px;
+  width: 70px;
   border-radius: 50%;
 }
 
 .emily-testimonials {
   font-size: 16px;
-  margin: 70px 0;
+  margin: 70px 40px;
 }
 
 .emily {
@@ -232,13 +232,13 @@ body {
 }
 
 #thomas-image img {
-  width: 60px;
+  width: 70px;
   border-radius: 50%;
 }
 
 .thomas-testimonials {
   font-size: 16px;
-  margin: 70px 0;
+  margin: 70px 10px;
 }
 
 .thomas {
@@ -251,16 +251,17 @@ body {
 .jennie-client-testimonials {
   width: 33.3%;
   color: rgb(64, 65, 66);
+  font-size: 14px;
 }
 
 #jennie-image img {
-  width: 60px;
+  width: 70px;
   border-radius: 50%;
 }
 
 .jennie-testimonials {
   font-size: 16px;
-  margin: 70px 0;
+  margin: 70px 40px;
 }
 
 .jennie {
@@ -327,7 +328,7 @@ footer {
 }
 
 /* Media queries for mobile */
-@media (max-width: 576px) {
+@media (max-width: 639px) {
   /* Navigation */
   .image-header-background {
     background-image: url(images/image-header.jpg);
@@ -561,252 +562,234 @@ footer {
 }
 
 /* Media queries for tablet */
-@media (min-width: 577px) and (max-width: 992px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "barlow", serif;
-  }
-
+@media (min-width: 640px) and (max-width: 992px) {
   /* Navigation */
   .image-header-background {
     background-image: url(images/image-header.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 85vh;
+    height: 60vh;
   }
 
   .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 40px 20px;
+    padding: 20px;
     color: white;
     font-family: "fraunces", serif;
   }
 
-  .nav-list a {
-    text-decoration: none;
-    font-size: 20px;
-    color: aliceblue;
+  .nav-bar .nav-list {
+    display: none;
   }
 
-  .nav-list-spacing {
-    margin-right: 50px;
-  }
-
-  .nav-list button {
-    font-weight: bold;
-    padding: 20px;
+  .nav-bar .nav-hamburger {
+    display: block;
+    background-color: transparent;
     border: none;
-    border-radius: 25px;
-    background-color: white;
+    width: 70px;
   }
 
   #sunnyside-logo img {
-    width: 250px;
-    padding: 10px;
-  }
-
-  .nav-list-spacing {
-    margin-right: 10px;
+    width: 130px;
   }
 
   .creatives-heading {
     font-family: "fraunces", serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: aliceblue;
-    margin-top: 160px;
+    margin-top: 10px;
     letter-spacing: 8px;
-    transform: scale(1);
+    transform: scale(0.6);
   }
 
   #icon-arrow {
     text-align: center;
-    margin-top: 120px;
+    margin-top: -30px;
+  }
+
+  .display-grid-transform-brand {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   /* transfom brand section */
-  #image-transform img {
-    height: 100%;
-    width: 100%;
-  }
-
   .tansform-brand {
-    padding: 0 20px;
     align-content: center;
-    text-align: justify;
+    text-align: center;
     font-weight: 700px;
+    padding: 100px;
   }
 
   .transform-brand-heading {
-    font-size: 25px;
+    font-size: 35px;
     font-family: "fraunces", serif;
   }
 
   .tansform-brand-text {
-    font-size: 15px;
+    font-size: 16px;
     color: rgb(119, 108, 108);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
-  .transform-brand-learn-more {
-    font-weight: 700px;
-    font-family: "fraunces", serif;
-    font-size: 14px;
-  }
-
-  /* Stand out section */
-
-  #image-stand-out img {
-    height: 100%;
-    width: 100%;
+  .display-grid-stand-out-text {
+    display: block;
   }
 
   .stand-out {
-    padding: 0 10px;
-    text-align: justify;
+    padding: 100px;
+    text-align: center;
     align-content: center;
-    font-weight: bold;
+    font-weight: 700px;
     color: black;
   }
 
   .stand-out-text-heading {
-    font-size: 25px;
+    font-size: 35px;
     font-family: "fraunces", serif;
   }
 
   .stand-out-text {
-    font-weight: 700px;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 16px;
     color: rgb(119, 108, 108);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
-  .stand-out-text-learn-more {
-    font-family: "fraunces", serif;
-    font-weight: 700px;
-    font-size: 14px;
+  .displaygrid-graphics-photography-background {
+    display: block;
   }
-
-  .image-gaphic-design-backgrround {
+  .image-gaphic-design-background {
     width: 100%;
-    height: 40vh;
+    height: 600px;
     background-image: url(images/image-graphic-design.jpg);
     background-size: cover;
     background-position: center;
     align-content: end;
-    font-weight: 700px;
+    font-weight: bold;
     text-align: center;
     color: rgb(61, 58, 58);
   }
 
   .graphic-design-heading {
     font-family: "fraunces", serif;
-    margin-bottom: 15px;
-    font-size: 25px;
-    font-weight: 700px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: bolder;
   }
 
   .graphic-design-text {
-    font-size: 15px;
-    margin-bottom: 20px;
-    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    padding: 0 100px;
   }
 
   .image-photography-background {
     width: 100%;
-    height: 40vh;
+    height: 600px;
     background-image: url(images/image-photography.jpg);
     background-size: cover;
     background-position: center;
-    font-weight: 700px;
+    font-weight: bolder;
     text-align: center;
     align-content: end;
     color: rgb(61, 58, 58);
   }
-
   .photography-heading {
     font-family: "fraunces", serif;
-    margin-bottom: 20px;
-    font-size: 25px;
-    font-weight: 700px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: bolder;
   }
 
   .photography-text {
-    font-size: 15px;
-    margin-bottom: 20px;
-    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    padding: 0 100px;
+  }
+  /* .client-testimonials-section */
+  .display-flex-one {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+  }
+
+  .client-testimonials-heading {
+    font-family: "fraunces", serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    font-size: 25px;
+    letter-spacing: 6px;
   }
 
   .emily-client-testimonials {
-    font-weight: bold;
-    width: 33.3%;
-    padding: 0 10px;
+    font-weight: 500px;
+    width: 100%;
   }
 
   .emily-testimonials {
-    font-size: 15px;
-    margin: 60px 0;
+    font-size: 16px;
+    margin: 30px 0;
   }
 
-  .emily {
-    font-family: "fraunces", serif;
-    font-size: 15px;
-    color: black;
-    margin-top: 80px;
+  #emily-image img {
+    width: 100px;
+    border-radius: 50%;
   }
 
   .thomas-client-testimonials {
-    font-weight: bold;
-    width: 33.3%;
-
-    padding: 0 10px;
-  }
-
-  .thomas-testimonials {
-    font-size: 15px;
+    font-weight: 500px;
+    width: 100%;
     margin: 60px 0;
   }
 
-  .thomas {
-    font-family: "fraunces", serif;
-    font-size: 15px;
-    color: black;
+  .thomas-testimonials {
+    font-size: 16px;
+    margin: 30px 0;
+  }
+
+  #thomas-image img {
+    width: 100px;
+    border-radius: 50%;
   }
 
   .jennie-client-testimonials {
-    font-weight: bold;
-    width: 33.3%;
-    padding: 0 10px;
+    font-weight: 500px;
+    width: 100%;
   }
 
   .jennie-testimonials {
-    font-size: 15px;
-    margin: 70px 0;
+    font-size: 16px;
+    margin: 30px 0;
   }
 
-  .jennie {
-    font-family: "fraunces", serif;
-    font-size: 15px;
-    color: black;
+  #jennie-image img {
+    width: 100px;
+    border-radius: 50%;
   }
 
-  /* Gallery section */
+  .display-flex-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    object-fit: cover;
+    margin-top: 100px;
+  }
+
   #image-gallery img {
-    height: 100%;
+    height: 60vh;
     width: 100%;
-    object-fit: contain;
   }
 
-  /* footer section */
+  /* Footer section */
   .footer-heading {
     font-family: "fraunces", serif;
     text-align: center;
     font-weight: bolder;
     margin-top: 0 0;
-    padding-top: 4cap;
+    padding-top: 30px;
     font-size: 25px;
     color: #428a79;
   }
@@ -816,7 +799,7 @@ footer {
     font-weight: bold;
     text-align: center;
     font-size: 16x;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #428a79;
   }
 
@@ -824,5 +807,291 @@ footer {
     display: flex;
     justify-content: center;
     padding: 40px 0;
+  }
+}
+
+/* Media query for mini laptop  */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .creatives-heading {
+    font-family: "fraunces", serif;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 50px;
+    letter-spacing: 10px;
+  }
+
+  #icon-arrow {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  /* main-section */
+  .display-grid-transform-brand {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #image-transform img {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* transfom brand section */
+  .tansform-brand {
+    padding: 80px;
+    align-content: center;
+    text-align: justify;
+    font-weight: bold;
+  }
+
+  .transform-brand-heading {
+    font-size: 40px;
+    font-family: "fraunces", serif;
+  }
+
+  .tansform-brand-text {
+    font-size: 17px;
+    color: rgb(119, 108, 108);
+    margin-bottom: 50px;
+    font-weight: 100px;
+  }
+
+  .transform-brand-learn-more {
+    font-weight: bold;
+    font-family: "fraunces", serif;
+  }
+
+  /* Stand out section */
+  .display-grid-stand-out-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #image-stand-out img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .stand-out {
+    padding: 0 60px;
+    text-align: justify;
+    align-content: center;
+    font-weight: bold;
+    color: black;
+  }
+
+  .stand-out-text-heading {
+    font-size: 35px;
+    font-family: "fraunces", serif;
+  }
+
+  .stand-out-text {
+    font-weight: 100px;
+    font-size: 17px;
+    color: rgb(119, 108, 108);
+    margin-bottom: 50px;
+  }
+
+  .stand-out-text-learn-more {
+    font-family: "fraunces", serif;
+    font-weight: bold;
+  }
+
+  .displaygrid-graphics-photography-background {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image-gaphic-design-background {
+    width: 100%;
+    height: 600px;
+    background-image: url(images/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    align-content: end;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(61, 58, 58);
+  }
+
+  .graphic-design-heading {
+    font-family: "fraunces", serif;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .graphic-design-text {
+    font-size: 17px;
+    margin-bottom: 60px;
+    padding: 0 60px;
+  }
+
+  .image-photography-background {
+    width: 100%;
+    height: 600px;
+    background-image: url(images/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bolder;
+    text-align: center;
+    align-content: end;
+    color: rgb(61, 58, 58);
+  }
+
+  .photography-heading {
+    font-family: "fraunces", serif;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .photography-text {
+    font-size: 17px;
+    margin-bottom: 60px;
+    padding: 0 100px;
+  }
+
+  /* .client-testimonials-section */
+  .display-flex-one {
+    display: flex;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+  }
+
+  .client-testimonials-heading {
+    font-family: "fraunces", serif;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    color: rgb(64, 65, 66);
+    letter-spacing: 6px;
+  }
+
+  .emily-client-testimonials {
+    width: 33.3%;
+    color: rgb(64, 65, 66);
+    padding: 0 30px;
+  }
+
+  #emily-image img {
+    width: 70px;
+    border-radius: 50%;
+  }
+
+  .emily-testimonials {
+    font-size: 15px;
+    margin: 70px 0;
+  }
+
+  .emily {
+    font-family: "fraunces", serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .thomas-client-testimonials {
+    width: 33.3%;
+    color: rgb(64, 65, 66);
+    padding: 0 10px;
+  }
+
+  #thomas-image img {
+    width: 70px;
+    border-radius: 50%;
+  }
+
+  .thomas-testimonials {
+    font-size: 15px;
+    margin: 70px 0;
+  }
+
+  .thomas {
+    font-family: "fraunces", serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .jennie-client-testimonials {
+    width: 33.3%;
+    color: rgb(64, 65, 66);
+    padding: 0 30px;
+  }
+
+  #jennie-image img {
+    width: 70px;
+    border-radius: 50%;
+  }
+
+  .jennie-testimonials {
+    font-size: 15px;
+    margin: 70px 0;
+  }
+
+  .jennie {
+    font-family: "fraunces", serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  /* image-gallery-section */
+  .display-flex-two {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    object-fit: cover;
+    margin-top: 100px;
+  }
+
+  #image-gallery img {
+    height: 66vh;
+    width: 100%;
+  }
+
+  /* footer section */
+  footer {
+    background-color: mediumaquamarine;
+    color: #90d4c6;
+  }
+
+  .footer-heading {
+    font-family: "fraunces", serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0;
+    padding-top: 60px;
+    font-size: 35px;
+    color: #428a79;
+  }
+
+  .footer-list {
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16x;
+    margin-bottom: 20px;
+    color: #428a79;
+  }
+
+  .footer-list li {
+    display: inline;
+  }
+
+  .footer-list-one {
+    margin-right: 40px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .footer-icon {
+    margin-right: 20px;
   }
 }
