@@ -481,7 +481,6 @@ footer {
   .display-flex-one {
     display: flex;
     flex-direction: column;
-    padding: 0 30px;
   }
 
   .client-testimonials-heading {
@@ -501,6 +500,7 @@ footer {
   .emily-testimonials {
     font-size: 16px;
     margin: 30px 0;
+    padding: 0 40px;
   }
   .thomas-client-testimonials {
     font-weight: 500px;
@@ -512,6 +512,7 @@ footer {
   .thomas-testimonials {
     font-size: 16px;
     margin: 30px 0;
+    padding: 0 40px;
   }
 
   .jennie-client-testimonials {
@@ -522,6 +523,7 @@ footer {
   .jennie-testimonials {
     font-size: 16px;
     margin: 30px 0;
+    padding: 0 40px;
   }
 
   .display-flex-two {
@@ -715,7 +717,6 @@ footer {
   .display-flex-one {
     display: flex;
     flex-direction: column;
-    padding: 0 30px;
   }
 
   .client-testimonials-heading {
@@ -735,6 +736,7 @@ footer {
   .emily-testimonials {
     font-size: 16px;
     margin: 30px 0;
+    padding: 0 40px;
   }
 
   #emily-image img {
@@ -752,6 +754,7 @@ footer {
   .thomas-testimonials {
     font-size: 16px;
     margin: 30px 0;
+    padding: 0 40px;
   }
 
   #thomas-image img {
@@ -767,6 +770,7 @@ footer {
   .jennie-testimonials {
     font-size: 16px;
     margin: 30px 0;
+    padding: 0 40px;
   }
 
   #jennie-image img {
